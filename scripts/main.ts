@@ -23,7 +23,7 @@ import {
 let jsonData;
 
 try {
-  const data = fs.readFileSync("data/data.json", "utf8");
+  const data = fs.readFileSync("public/data/data.json", "utf8");
   jsonData = JSON.parse(data).data;
 } catch (error) {
   console.error("Data file is not found");

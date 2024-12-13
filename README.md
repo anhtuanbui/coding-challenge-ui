@@ -1,36 +1,158 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Solution to Coding Challenge
 
-## Getting Started
+This solution is using NextJS and TypeScript to create front-end.
 
-First, run the development server:
+For simpler solution with JavaScript check out [Coding Chalenge Solution](https://github.com/anhtuanbui/coding-challenge/tree/master)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+This version 2 adds extra coding experience to the solution
+
+## Check out the solution
+
+The solution is now interacterble using UI at [Coding Challenge Solution Version 2](https://coding-challenge-v2-pearl.vercel.app/)
+
+Try *Change Data* for testing.
+
+- Click `Change Data`
+- Add below sample mock data in the input of the pop up dialog
+- Click `Submit` to see result
+
+<details>
+
+### Sample mock data:
+
+```
+[
+  {
+    "account_category": "revenue",
+    "account_code": "RC1000",
+    "account_currency": "AUD",
+    "account_identifier": "REV001",
+    "account_status": "active",
+    "value_type": "credit",
+    "account_name": "Revenue Account 1",
+    "account_type": "revenue",
+    "account_type_bank": "none",
+    "system_account": "general",
+    "total_value": 1000
+  },
+  {
+    "account_category": "revenue",
+    "account_code": "RC2000",
+    "account_currency": "AUD",
+    "account_identifier": "REV002",
+    "account_status": "active",
+    "value_type": "credit",
+    "account_name": "Revenue Account 2",
+    "account_type": "revenue",
+    "account_type_bank": "none",
+    "system_account": "general",
+    "total_value": 2000
+  },
+  {
+    "account_category": "expense",
+    "account_code": "EX500",
+    "account_currency": "AUD",
+    "account_identifier": "EXP001",
+    "account_status": "active",
+    "value_type": "debit",
+    "account_name": "Expense Account 1",
+    "account_type": "expense",
+    "account_type_bank": "none",
+    "system_account": "general",
+    "total_value": 500
+  },
+  {
+    "account_category": "expense",
+    "account_code": "EX300",
+    "account_currency": "AUD",
+    "account_identifier": "EXP002",
+    "account_status": "active",
+    "value_type": "debit",
+    "account_name": "Expense Account 2",
+    "account_type": "expense",
+    "account_type_bank": "none",
+    "system_account": "general",
+    "total_value": 300
+  },
+  {
+    "account_category": "assets",
+    "account_code": "AS1500",
+    "account_currency": "AUD",
+    "account_identifier": "AST001",
+    "account_status": "active",
+    "value_type": "debit",
+    "account_name": "Asset Account 1",
+    "account_type": "current",
+    "account_type_bank": "none",
+    "system_account": "general",
+    "total_value": 1500
+  },
+  {
+    "account_category": "assets",
+    "account_code": "AS200",
+    "account_currency": "AUD",
+    "account_identifier": "AST002",
+    "account_status": "active",
+    "value_type": "credit",
+    "account_name": "Asset Account 2",
+    "account_type": "current",
+    "account_type_bank": "none",
+    "system_account": "general",
+    "total_value": 200
+  },
+  {
+    "account_category": "liability",
+    "account_code": "LB100",
+    "account_currency": "AUD",
+    "account_identifier": "LBT001",
+    "account_status": "active",
+    "value_type": "debit",
+    "account_name": "Liability Account 1",
+    "account_type": "current",
+    "account_type_bank": "none",
+    "system_account": "general",
+    "total_value": 100
+  },
+  {
+    "account_category": "liability",
+    "account_code": "LB300",
+    "account_currency": "AUD",
+    "account_identifier": "LBT002",
+    "account_status": "active",
+    "value_type": "credit",
+    "account_name": "Liability Account 2",
+    "account_type": "current",
+    "account_type_bank": "none",
+    "system_account": "general",
+    "total_value": 300
+  }
+]
+```
+</details>
+
+*The result should show:*
+```
+Revenue: $3,000
+Expenses: $800
+Gross Profit Margin: 0.0%
+Net Profit Margin: 73.3%
+Working Capital Ratio: 650.0%
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Test the app with terminal
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Clone the app using terminal and git at https://github.com/anhtuanbui/coding-challenge-v2. Check for [clone app helper](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
+- Open app folder in terminal or cmd
+  * Type `npm run dev` for testing the UI
+  * Type `npm run main` for testing it using the terminal
+  * Type `npm run test` for testing functions result
+- On UI and terminal result should show as follow:
+```
+    Revenue: $32,431
+    Expenses: $36,530
+    Gross Profit Margin: 0.0%
+    Net Profit Margin: -12.6%
+    Working Capital Ratio: 118.8%
+```
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
