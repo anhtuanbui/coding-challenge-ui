@@ -19,7 +19,7 @@ Working Capital Ratio: 118.8%
 
 ## Check out the solution
 
-The solution is now interacterble using UI at [Coding Challenge Solution Version 2](https://coding-challenge-v2-pearl.vercel.app/)
+The solution is now interacterble using UI at [Coding Challenge Solution Version 2](https://coding-challenge-ui.vercel.app/)
 
 Try *Change Data* for testing.
 
