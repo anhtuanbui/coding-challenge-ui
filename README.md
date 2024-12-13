@@ -8,11 +8,11 @@ This version 2 adds extra coding experience to the solution.
 
 The default output of the solution should be:
 ```
-    Revenue: $32,431
-    Expenses: $36,530
-    Gross Profit Margin: 0.0%
-    Net Profit Margin: -12.6%
-    Working Capital Ratio: 118.8%
+Revenue: $32,431
+Expenses: $36,530
+Gross Profit Margin: 0.0%
+Net Profit Margin: -12.6%
+Working Capital Ratio: 118.8%
 ```
 
 ## Check out the solution
@@ -158,10 +158,10 @@ Working Capital Ratio: 650.0%
   * Type `npm run test` for testing functions result
 - On UI and terminal result should show as follow:
 ```
-    Revenue: $32,431
-    Expenses: $36,530
-    Gross Profit Margin: 0.0%
-    Net Profit Margin: -12.6%
-    Working Capital Ratio: 118.8%
+Revenue: $32,431
+Expenses: $36,530
+Gross Profit Margin: 0.0%
+Net Profit Margin: -12.6%
+Working Capital Ratio: 118.8%
 ```
 
