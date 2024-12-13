@@ -153,7 +153,7 @@ Working Capital Ratio: 650.0%
 
 ## Test the app with terminal
 
-- Clone the app using terminal and git at https://github.com/anhtuanbui/coding-challenge-ui. Check for [clone app helper](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
+- Clone the app using terminal and git at https://github.com/anhtuanbui/coding-challenge-ui. Check [clone app helper](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) for details.
 - Open the app folder in the terminal or cmd
   * Type ```npm run dev``` for testing the UI
   * Type ```npm run main``` for testing it using the terminal
