@@ -2,9 +2,9 @@
 
 This repository is the solution for the [coding challenge](https://github.com/rewardpay/coding-challenge)
 
-This solution is using NextJS, Shadcn UI, and TypeScript to create front-end.
+This solution uses NextJS, Shadcn UI, and TypeScript to create the front-end.
 
-For simpler solution with JavaScript check out [Coding Chalenge Solution](https://github.com/anhtuanbui/coding-challenge/tree/master)
+For a simpler solution with JavaScript check out [Coding Challenge Solution](https://github.com/anhtuanbui/coding-challenge/tree/master)
 
 This version 2 adds extra coding experience to the solution.
 
@@ -19,13 +19,13 @@ Working Capital Ratio: 118.8%
 
 ## Check out the solution
 
-The solution is now interacterble using UI at [Coding Challenge Solution Version 2](https://coding-challenge-ui.vercel.app/)
+The solution is now interactable using UI at [Coding Challenge Solution Version 2](https://coding-challenge-ui.vercel.app/)
 
 Try *Change Data* for testing.
 
 - Click `Change Data`
-- Add below sample mock data in the input of the pop up dialog
-- Click `Submit` to see result
+- Add below sample mock data in the input of the pop-up dialog
+- Click `Submit` to see the result
 
 <details>
 
@@ -154,11 +154,11 @@ Working Capital Ratio: 650.0%
 ## Test the app with terminal
 
 - Clone the app using terminal and git at https://github.com/anhtuanbui/coding-challenge-ui. Check for [clone app helper](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
-- Open app folder in terminal or cmd
+- Open the app folder in the terminal or cmd
   * Type ```npm run dev``` for testing the UI
   * Type ```npm run main``` for testing it using the terminal
   * Type ```npm run test``` for testing functions results
-- On UI and terminal result should show as follow:
+- On UI and terminal results should show as follows:
 ```
 Revenue: $32,431
 Expenses: $36,530
