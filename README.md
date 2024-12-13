@@ -1,6 +1,6 @@
 # Solution to Coding Challenge
 
-This solution is using NextJS and TypeScript to create front-end.
+This solution is using NextJS, Shadcn UI, and TypeScript to create front-end.
 
 For simpler solution with JavaScript check out [Coding Chalenge Solution](https://github.com/anhtuanbui/coding-challenge/tree/master)
 
