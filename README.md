@@ -4,7 +4,16 @@ This solution is using NextJS and TypeScript to create front-end.
 
 For simpler solution with JavaScript check out [Coding Chalenge Solution](https://github.com/anhtuanbui/coding-challenge/tree/master)
 
-This version 2 adds extra coding experience to the solution
+This version 2 adds extra coding experience to the solution.
+
+The default output of the solution should be:
+```
+    Revenue: $32,431
+    Expenses: $36,530
+    Gross Profit Margin: 0.0%
+    Net Profit Margin: -12.6%
+    Working Capital Ratio: 118.8%
+```
 
 ## Check out the solution
 
@@ -18,7 +27,7 @@ Try *Change Data* for testing.
 
 <details>
 
-### Sample mock data:
+<summary>Sample Mock Data</summary>
 
 ```
 [
