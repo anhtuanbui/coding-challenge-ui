@@ -2,7 +2,7 @@
 
 This repository is the solution for the [coding challenge](https://github.com/rewardpay/coding-challenge)
 
-This solution uses NextJS, TailWind CSS, Shadcn UI, and TypeScript to create the front-end which is responsive.
+This solution uses NextJS, TailWind CSS, Shadcn UI, and TypeScripts to create the front-end which is responsive.
 
 For a simpler solution with JavaScript check out [Coding Challenge Solution](https://github.com/anhtuanbui/coding-challenge/tree/master)
 
