@@ -7,13 +7,13 @@ For simpler solution with JavaScript check out [Coding Chalenge Solution](https:
 This version 2 adds extra coding experience to the solution.
 
 The default output of the solution should be:
-```
+`
 Revenue: $32,431
 Expenses: $36,530
 Gross Profit Margin: 0.0%
 Net Profit Margin: -12.6%
 Working Capital Ratio: 118.8%
-```
+`
 
 ## Check out the solution
 
@@ -140,28 +140,28 @@ Try *Change Data* for testing.
 </details>
 
 *The result should show:*
-```
+`
 Revenue: $3,000
 Expenses: $800
 Gross Profit Margin: 0.0%
 Net Profit Margin: 73.3%
 Working Capital Ratio: 650.0%
-```
+`
 
 
 ## Test the app with terminal
 
 - Clone the app using terminal and git at https://github.com/anhtuanbui/coding-challenge-v2. Check for [clone app helper](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
 - Open app folder in terminal or cmd
-  * Type `npm run dev` for testing the UI
-  * Type `npm run main` for testing it using the terminal
-  * Type `npm run test` for testing functions result
+  * Type ```npm run dev``` for testing the UI
+  * Type ```npm run main``` for testing it using the terminal
+  * Type ```npm run test``` for testing functions result
 - On UI and terminal result should show as follow:
-```
+`
 Revenue: $32,431
 Expenses: $36,530
 Gross Profit Margin: 0.0%
 Net Profit Margin: -12.6%
 Working Capital Ratio: 118.8%
-```
+`
 
