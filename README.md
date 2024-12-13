@@ -1,6 +1,6 @@
 # Solution to Coding Challenge
 
-This repository is the solution for the [coding challenge](https://github.com/anhtuanbui/coding-challenge)
+This repository is the solution for the [coding challenge](https://github.com/rewardpay/coding-challenge)
 
 This solution is using NextJS, Shadcn UI, and TypeScript to create front-end.
 
