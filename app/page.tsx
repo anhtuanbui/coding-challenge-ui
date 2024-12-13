@@ -38,7 +38,7 @@ export default function Home() {
       setJsonData(data);
       setErrorOutput("");
     } else {
-      setErrorOutput("Invalid JSON");
+      setErrorOutput("Invalid Data");
     }
   }
 

@@ -153,11 +153,11 @@ Working Capital Ratio: 650.0%
 
 ## Test the app with terminal
 
-- Clone the app using terminal and git at https://github.com/anhtuanbui/coding-challenge-v2. Check for [clone app helper](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
+- Clone the app using terminal and git at https://github.com/anhtuanbui/coding-challenge-ui. Check for [clone app helper](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
 - Open app folder in terminal or cmd
   * Type ```npm run dev``` for testing the UI
   * Type ```npm run main``` for testing it using the terminal
-  * Type ```npm run test``` for testing functions result
+  * Type ```npm run test``` for testing functions results
 - On UI and terminal result should show as follow:
 ```
 Revenue: $32,431
