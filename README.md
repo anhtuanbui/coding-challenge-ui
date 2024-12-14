@@ -1,6 +1,6 @@
 # Solution to Coding Challenge
 
-This repository is the solution for the [coding challenge](https://github.com/rewardpay/coding-challenge)
+This repository is the solution for the [coding challenge](https://github.com/rewardpay/coding-challenge).
 
 This solution uses NextJS, TailWind CSS, Shadcn UI, and TypeScript to create the front-end which is responsive.
 
@@ -154,10 +154,11 @@ Working Capital Ratio: 650.0%
 ## Test the app with terminal
 
 - Clone the app using terminal and git at https://github.com/anhtuanbui/coding-challenge-ui. Check for [clone app helper](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
-- Open the app folder in the terminal or cmd
-  * Type ```npm run dev``` for testing the UI
-  * Type ```npm run main``` for testing it using the terminal
-  * Type ```npm run test``` for testing functions results
+- Run `npm install` to install all dependencies.
+- Open the app folder in the terminal or cmd.
+  * Type ```npm run dev``` for testing the UI.
+  * Type ```npm run main``` for testing it using the terminal.
+  * Type ```npm run test``` for testing functions results.
 - On UI and terminal results should show as follows:
 ```
 Revenue: $32,431
